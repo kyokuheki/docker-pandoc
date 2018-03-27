@@ -1,6 +1,6 @@
 FROM ubuntu:rolling
 #FROM ubuntu:devel
-LABEL maintainer Kenzo Okuda <okuda.kenzo@nttv6.net>
+LABEL maintainer Kyokuheki <kyokuheki@gmail.com>
 
 # ubuntu:rolling tag points to the latest release
 # ubuntu:latest tag points to the "latest LTS"
