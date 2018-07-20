@@ -87,5 +87,6 @@ ENTRYPOINT ["/usr/bin/pandoc", \
   "-V", "luatexjapresetoptions=noto-otf", \
   "-V", "mainfont=TeX Gyre Termes", "-V", "mainfontoptions=Ligatures=TeX,Scale=0.95", \
   "-V", "sansfont=TeX Gyre Heros", "-V", "sansfontoptions=Ligatures=TeX,Scale=0.95", \
-  "-V", "monofont=Inconsolatazi4" \
+  "-V", "monofont=Inconsolatazi4", \
+  "-V", "mathfont=XITSMath" \
 ]
